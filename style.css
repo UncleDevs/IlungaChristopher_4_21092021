@@ -18,6 +18,23 @@ a:hover {
     cursor: pointer;
 }
 
+.detail {
+    font-size: 1.75rem;
+    max-width: 47rem;
+    margin: auto;
+}
+
+.citation {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.citation-author {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -135,6 +152,7 @@ a:hover {
 .d-bloc p a {
     color: rgba(255, 255, 255, .6);
 }
+
 
 .d-bloc .a-btn:hover,
 .d-bloc .navbar a:hover,
@@ -519,6 +537,7 @@ button {
     opacity: 0;
     z-index: 500;
     transition: all .3s ease-in-out;
+
 }
 
 .scrollToTop span {
@@ -709,6 +728,10 @@ h2 {
     line-height: 1.4em;
 }
 
+.service-title {
+    font-weight: bold;
+}
+
 h3 {
     font-size: 15px;
     text-transform: uppercase;
@@ -759,8 +782,16 @@ h4 {
 
 .bold-link {
     font-weight: 900;
-    text-decoration: underline!important;
+    font-size: 2rem;
+    background-color: black;
+    border-radius: 4rem;
+    padding: 1rem;
 }
+
+.bold-link:hover {
+    background-color: white;
+}
+
 
 .bgc-white {
     background-color: #FFFFFF;
@@ -771,21 +802,25 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: black;
 }
 
+.social-name {
+    color: white;
+    margin-left: 0.5rem;
+}
 .tc-white {
-    color: #F3976C!important;
+    color: white!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: black;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: white!important;
+    color: black!important;
 }
 
 .ltc-white {
@@ -793,7 +828,7 @@ h4 {
 }
 
 .ltc-white:hover {
-    color: #cccccc!important;
+    color: black!important;
 }
 
 .ltc-atomic-tangerine {
@@ -818,11 +853,11 @@ h4 {
 }
 
 .bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
+    background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
